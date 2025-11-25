@@ -32,5 +32,5 @@ jobs:
         with:
             app-name: "PythonCrud"  # Your Azure Web App name
             publish-profile: ${{secrets.AZURE_WEBAPP_PUBLISH_PROFILE}}
-            package:
+            package: Python_CRUD_Operation
 
