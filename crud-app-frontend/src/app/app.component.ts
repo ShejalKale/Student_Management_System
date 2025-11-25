@@ -18,7 +18,7 @@ export class AppComponent {
     formData.append('name', this.name);
     formData.append('email', this.email);
 
-    this.http.post('https://<your-python-api>.azurewebsites.net/submit', formData)
+    this.http.post('https://pythoncrud-hmb2cgh4b8dgfpf3.centralindia-01.azurewebsites.net/submit', formData)
       .subscribe({
         next: (res) => this.response = res,
         error: (err) => console.error('Error:', err)
